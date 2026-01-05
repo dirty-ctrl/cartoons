@@ -1,0 +1,40 @@
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+font-family: Fredoka, sans-serif;
+}
+
+.play {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+}
+
+.play img {
+width: 500px;
+max-width: 85%;
+border-radius: 26px;
+box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+}
+
+.words {
+text-align: center;
+color: #2d1b3f;
+}
+
+.words h1 {
+margin: 0;
+font-size: 58px;
+letter-spacing: 2px;
+}
+
+.words p {
+margin-top: 8px;
+font-size: 22px;
+opacity: 0.9;
+}
